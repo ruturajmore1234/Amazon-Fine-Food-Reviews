@@ -10,6 +10,7 @@ Dataset : https://www.kaggle.com/snap/amazon-fine-food-reviews
 
 
 Conclusion:
+
 |       Model       |Vectorizer|   SearchCV   |Best penalty|Optimal lambda|Training error|Test error|Accuracy| F1  |recall|precision|
 |-------------------|----------|--------------|------------|-------------:|-------------:|---------:|-------:|----:|-----:|--------:|
 |Logistic Regression|BoW       |GridSearchCV  |l2          |        1.0000|       0.00504|     20.46|  0.7954|76.53| 76.32|    76.76|
