@@ -23,7 +23,7 @@ Transforming _score_ column by writting "positive" for values greater than 3 and
 Sorting data according to ProductId in ascending order.  
 Every datasets contains some unwanted data.Raw data is preprocessed by removing duplication.  
 #### Graph of positive and negative reviews after removing duplication:    
-![alt text](/Images/Graph.PNG)  
+![alt text](/Images/Graph.png)  
 Our data requires some preprocessing before we go on further with analysis and making the prediction model.  
 Hence in the Preprocessing phase we do the following in the order below:-  
 #### Review Text:
@@ -46,7 +46,7 @@ So here,time conversion is not necessary to process on amazon data.
 GridsearchCV and RandomsearchCV method are used to obtain optimal lambda with L2 penality,different scoring options ( e.g,accuracy,precision,recall and F1-score) and broad range of lambda.  
 Best parameter lambda and penalty for which model performs very well is obtained. 
 #####         Below snap is of Confusion matrix for TF-IDF with RandomSearch CV & L1 regularization:
-  ![alt text](/Images/Confusion.PNG)
+  ![alt text](/Images/Confusion.png)
 ### Feature Importance for Logistic Regression:
 
 ## Conclusion:
